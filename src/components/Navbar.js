@@ -1,4 +1,4 @@
-import { CartIcon, Testing } from "../icons";
+import { CartIcon } from "../icons";
 import { useSelector } from "react-redux";
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
   const amount = useSelector((store) => store.cart.amount);
   return (
     <>
-      <Testing />
+      {/* <Testing /> */}
       <nav>
         <div className="nav-center">
           <h3>redux toolkit</h3>
